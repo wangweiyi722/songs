@@ -6,6 +6,7 @@ import {selectSong} from '../actions';
 
 class SongList extends Component{
 
+  // this.props === {songs:state.songs} from the mapStateToProps function
   renderList(){
     return this.props.songs.map((song)=> {
       return (
